@@ -1,0 +1,49 @@
+Class ReverseString{
+	main(){
+    String Input = "Welcome to Test Yantra";
+	StringBuffer s = new StringBuffer();
+	s.append(input);
+	system.out.println("before the reverse+...." );
+	input.reverse();
+	system.out.println("after reverse+....");
+	}
+}
+
+Swap first and last char of a string:
+
+	Class Swap{
+	main(){
+	StringBuffer sb = new StringBuffer("welcome to test yantra");
+	sb.setCharat(0, 'a');
+	sb.setcharAt(19,'w');
+	String nString = sb.toString();
+	system.out.println(nString);
+		}
+}
+	
+Duplicates removal:
+
+Class RemoveDuplicates{
+	
+	main(){
+		StringBuilder sb = new StringBuilder();
+		set<Character> sets = new LinkedHashSet<>();
+		for(int i=0; i<str.length();i++){
+			sets.add(str.charAt(i));
+	   }
+	   for(Character ch: sets)
+		sb.append(c);
+	}	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
